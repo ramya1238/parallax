@@ -1,75 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>parallax</title>
-    <style> 
-    body, html {
-        height: 100%;
-    }
 
-    * {
-        margin: 0px;
-    }
-    .parallax1 {
-        background-image: url("mountains.jpg");
-        height: 80%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-    }
-
-    .parallax2 {
-        background-image: url("fish.jpg");
-        height: 70%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .para1 {
-        padding-top: 20px;
-    }
-
-    .background_text1, .background_text2 {
-        padding-top: 15%;
-        font-size: 300%;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        text-align: center;
-        text-transform: capitalize;
-        color: lightgrey;  
-    }
-
-    .h1 {
-       padding-top: 20px;
-    }
+    <style>
+        body,html {
+            height: 100%;
+            margin: 0;
+        }
+        .parallax1 {
+            background-image: url("coffee.gif");
+            
+            min-height: 620px;
+            
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     </style>
 </head>
-
-
 <body>
-    <h1 class="h1" style="background-color: maroon; color: whitesmoke; text-align: center; width: 100%; height: 70px;">My parallax website</h1>
-    <!--<h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style: italic; color: tomato;">hello</h1>-->
-    <div class="parallax1">
-        <p class="background_text1">This is background one</p>
-    </div>
-    
-    <div  class="para1" style="height: 200px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 36px; font-style: italic; background-color:rgb(71, 255, 184); text-align: center;">
-        parallax scrolling effect.
-    </div>
-
-    <div class="parallax2">
-        <p class="background_text2">This is background two</p>
-    </div>
-    <div class="para1" style="height: 200px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 36px; font-style: italic; background-color: yellowgreen; text-align: center;">
-         scroll down to see the effect.
-     </div>  
+    <div class="parallax1"></div>
+    <div style="background-color:antiquewhite; font-size: 30px; height: 200px;">hello world</div>
 </body>
-
 </html>
